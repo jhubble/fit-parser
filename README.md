@@ -1,8 +1,22 @@
 # fit-file-parser
 
+
+
 > Parse your .FIT files easily, directly from JS.
 > Written in ES6. (Hope to change)
 
+
+# Version notes
+This includes code to attempt to fix bad points in a fit file (primarily from a Garmin watch.)
+makeGPX is added to examples folder. This can produce a GPX, optionally filtering out "bad" points.
+
+To run.
+1. Clone this repo
+2. Run npm install
+3. Run node makeGPX.js fitfile.fit 50
+This will produce a gpx in STDOUT, only allowing points between 45 and 55 degrees long. (The long parameter is optional)
+
+# Original Notes:
 
 ## Install
 
